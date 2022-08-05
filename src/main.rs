@@ -32,6 +32,6 @@ fn main() {
         std::io::copy(&mut inf, &mut ouf).unwrap();
         copy(tindex, oindex).unwrap();
     }
-    let mut cmd = Command::new("nw");
+    let mut cmd = Command::new("nwo");
     cmd.spawn().expect("Failed to start.");
 }
